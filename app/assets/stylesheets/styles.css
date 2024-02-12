@@ -1,0 +1,109 @@
+/* app/assets/stylesheets/styles.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Ensure full viewport height */
+}
+
+/* Container styles */
+.container {
+  max-width: 800px; /* Limit width of content */
+  width: 100%;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Product card styles */
+.product-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-card h2 {
+  color: #333;
+}
+
+.product-card p {
+  color: #666;
+}
+
+.product-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product-card a:hover {
+  text-decoration: underline;
+}
+
+/* Payment form styles */
+.payment-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-form script {
+  margin-top: 20px;
+}
+
+/* Back to all products link */
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+/* Table styles */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-container .btn {
+  margin-right: 10px;
+}
